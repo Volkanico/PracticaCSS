@@ -1,0 +1,411 @@
+
+            
+
+@media only screen and (min-width: 800px) {
+
+    * {box-sizing: border-box;margin: 0px;padding:0px;color:lightgray;font-family: cursive;}
+    
+    body {background-color: rgb(40, 40, 40);}
+    
+    #principal{
+        margin: auto;
+        display: grid;
+        grid-template-columns: [col1] 100% [col2];
+        grid-template-rows:[row1] auto [row2] auto [row3] auto [row4] auto [row5] auto [row6] auto [row7];
+        width: 80%;
+        height: auto;
+    }
+     .header {
+         display:flex;
+         flex-direction: row;
+         justify-content: space-between;
+         margin:5px;
+         background-color: rgb(25, 25, 25);
+     }
+     .header button {
+        display:none;
+    }
+    
+     #logo{
+         width:40px;
+         height:40px;
+         padding-top:5px;
+     }
+     #myDropdown {
+         margin-top:10px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         gap: 20px;
+     }
+    
+     
+    
+     .botons {
+         display: flex;
+         flex-direction: row;
+         gap: 20px;
+         margin-top:10px;
+         margin-right:10px;
+     }
+     .botons a {
+         
+         height:20px;
+         width:20px;
+         margin:2px;
+     }
+    #destacat1 {
+        display: flex;
+    }
+    
+        #destacat1 .oferta {
+            order:1;
+            width: 35%;
+            height: 100%;
+            background-color: rgb(25, 25, 25);
+            text-align: center;
+        }
+        #destacat1 .oferta h2 {
+            margin-top: 60%;
+        }
+        #destacat1 .oferta h5 {margin:20px;}
+        #destacat1 .oferta a {margin:20px;}
+        #destacat1 .oferta button {
+            width:40%;
+            height:8%;
+            margin-top:20px;
+            background-color: black;
+            border-radius: 8px;
+        }
+    
+    
+        #destacat1 .fotoCotxo {
+            order:2;
+            width: 65%;
+            height:100%;
+            background-color: rgb(25, 25, 25);
+            padding-right:10px;
+        }
+            #destacat1 .fotoCotxo img {
+                width:100%;
+                height:100%;
+                border-radius:20px;
+                margin-top:5px;
+                margin-bottom: 5px;
+            }
+    
+    #destacat2 {
+        display: flex;
+    }
+        #destacat2 .oferta {
+            order:2;
+            width: 35%;
+            height: 100%;
+            background-color: rgb(25, 25, 25);
+            text-align: center;
+        }
+        #destacat2 .oferta h2 {
+            margin-top: 40%;
+        }
+        #destacat2 .oferta h5 {margin:20px;}
+        #destacat2 .oferta a {margin:20px;}
+        #destacat2 .oferta button {
+            width:40%;
+            height:8%;
+            margin-top:20px;
+            background-color: black;
+            border-radius: 8px;
+        }
+    
+        #destacat2 .fotoCotxo {
+            background-color: rgb(25, 25, 25);
+            order:1;
+            width: 65%;
+            height:100%;
+            padding-left:10px;
+            padding-bottom:10px;
+        }
+            #destacat2 .fotoCotxo img {
+                width:100%;
+                height:100%;
+                border-radius:20px;
+                margin-top:5px;
+                margin-bottom: 5px;
+            }
+    
+    #tenda {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        justify-content: space-between;
+    
+    }
+    
+    
+        .newproducts {
+            
+            height:5%;
+            width:100%;
+            text-align: center;
+            font-family:fantasy;
+        }
+        .newproducts h6 {
+            float:right;
+            margin:4px;
+        }
+        
+    
+        .producte {
+            display: flex;
+            flex-wrap: wrap;
+            
+            height: 50%;
+            width: 25%;
+            gap:5px;
+            padding-bottom:10px;
+            
+            
+        }
+    
+            .producte img {
+                width:250px;
+                height:150px;
+                border-radius: 10px;
+            }
+    
+            .producte h3 {
+               
+                float:left;
+                
+            }
+            .producte h4 {
+                
+                float:right;
+                margin-left:70px;
+                margin-top:5px;
+                color:rgb(68, 68, 68)
+            }
+    
+            .producte .estrelles {
+                display:flex;
+                
+                
+                width:50%;
+                height:10%;
+                padding:auto;
+                background-color: lightgray;
+                border-radius: 5%;
+                padding:1px;
+                margin:5px;
+                
+                
+                
+            }
+    .price {
+        margin-left:80px;
+    }
+    
+            .producte .estrelles img {
+                margin-top:4px;
+                width:70%;
+                height:70%;
+                
+            }
+    
+            .color button {
+                margin-left: 15px;
+                border-radius: 50%;
+                width: 25px;
+                height:25px;
+                margin-bottom:25px;
+            }
+            .color .white {background-color: rgb(190, 190, 190);}
+            .color .black {background-color: rgb(32, 32, 32);}
+            .color .yellow {background-color: rgb(238, 238, 79);}
+            .color .red {background-color: rgb(202, 74, 74);}
+            .color .blue {background-color: rgb(39, 39, 228);}
+        
+    #opinioClients {
+        padding-left:20px;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: row;
+            justify-content: space-between;
+    }
+    
+    #opinioClients .buttonstart {
+        height:10%;
+        order:1;
+        margin-top:60px;
+        margin-left:140px;
+        
+    }
+    .buttonfinal{
+        order:3;
+        height:10%;
+        margin-top:60px;
+    }
+    
+    .opinionsAll {
+        order:2;
+        display:flex;
+        
+        justify-content: space-between;
+        flex-direction: row;
+    }
+        #opinioClients .titolOpinions{
+            order: 1;
+            width: 300%;
+            height: 40%;
+            
+        }
+    
+        #opinioClients .opinion1 {
+            order: 2;
+            width: 25%;
+            height: 45%;
+            display:flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+        #opinioClients .opinion1 img {
+            width:100%;
+            height:140px;
+            padding:auto;
+            
+            
+        }
+        #opinioClients .opinion1 .estrelles {
+            display:flex;
+            flex-direction: row;
+            width:50%;
+            height:10%;
+            padding:auto;
+            background-color: lightgray;
+            border-radius: 10%;
+            padding:1px;
+            margin:5px;
+            margin-left:50px;
+            
+        }
+    
+        #opinioClients .opinion1 .estrelles img {
+        
+            width:70%;
+            height:70%;
+            
+        }
+    
+        #opinioClients .opinion1 p {
+            color: lightgray
+        }
+    
+        #opinioClients .opinion {
+            order: 2;
+            width: 25%;
+            height: 45%;
+            display:flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+        #opinioClients .opinion img {
+            width:100%;
+            height:140px;
+            padding:auto;
+            
+            
+        }
+        #opinioClients .opinion .estrelles {
+            display:flex;
+            flex-direction: row;
+            width:50%;
+            height:10%;
+            padding:auto;
+            background-color: lightgray;
+            border-radius: 10%;
+            padding:1px;
+            margin:5px;
+            justify-content: center;
+            margin-left:50px;
+        }
+    
+        #opinioClients .opinion .estrelles img {
+        
+            width:70%;
+            height:70%;
+            
+        }
+    
+        #opinioClients .opinion p {
+            color: lightgray
+        }
+    
+        
+    
+    #footer {
+        display: flex;
+        flex-direction: row;
+        
+        background-color: rgb(25, 25, 25);
+    }
+    
+        .info {
+            order:1;
+            width:20%;
+            padding:10px;
+        }
+    
+        .info h5{
+            margin-bottom:10px;
+        }
+            .info img {
+                float:left;
+                width:60px;
+                height:60px;
+                margin: 10px;
+                border-radius: 50px;
+            }
+            .info div {
+                margin-top: 100px;
+                text-align: center;
+                font-size: 16px;
+            }
+    
+        .services {
+            order:2;
+            padding: 5px;
+            margin:10px;
+            width:40%;
+            height: 50%;   
+        }
+    
+            .services table tr th {
+                padding: 3px;
+                text-align: left;
+            }
+    
+            .services table tr td {
+                padding: 0;
+                margin:0;  
+            }
+    
+        .search {
+            margin:auto;
+            order:3;
+            width:40%;
+        }
+            .search h3 {
+                padding:10px;
+                margin-left:10px;
+            }
+            .search a {
+                padding:10px;
+                margin:10px;
+                
+            }
+            
+        }
+    
+    
